@@ -1,17 +1,7 @@
-/**
- * Task1-2 : 課題内容
- *
- * 本課題では、配列の使い方を学んでいきましょう。
- * 問①から問⑥まであります。
- * 指定された値と変数名を守って記述してください。
- *
- * 問⑤,⑥については、コメントを入れてください。
- *
- */
 public class Task1_2 {
     public static void main(String[] args) {
         // ①「JAPAN」、「AMERICA」、「KOREA」を要素の値（初期値）とする配列 countryを作成しなさい。
-        int country[] = {JAPAN,AMERICA,KOREA};
+        int[] country = new int[3];
         // ② ①で作成した配列の要素数を出力してください。
         System.out.println("配列countryの要素数…" + country.length);
         /* ③下記の値を保持した、要素数3のStringクラスの配列strArrayを作成しなさい。
@@ -24,7 +14,7 @@ public class Task1_2 {
          strArray[1] = "もも";
          strArray[2] = "ぶどう";
         // ④ ③で作成した配列の2番目の要素を出力しなさい。
-        System.out.println("strArray[1]… " + strArray[1]);
+        System.out.println("strArray[2]… " + strArray[1]);
         /* ⑤下記の処理について、何をしているのかコメントを記入してください。
          *  int型の５つの要素を持つ配列intArrayを初期化する。
          */
